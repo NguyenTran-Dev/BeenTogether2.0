@@ -1,0 +1,23 @@
+@import url(./modules/header.scss);
+@import url(./pages/home.scss);
+.row {
+  --bs-gutter-x: 0 !important;
+}
+.body--content {
+  margin-top: 75px;
+}
+//set responsive
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  h4 {
+    font-size: 16px !important;
+  }
+  h5 {
+    font-size: 14px !important;
+  }
+}

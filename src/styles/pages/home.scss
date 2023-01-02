@@ -1,0 +1,22 @@
+.home {
+  &--content {
+    padding: 20px;
+    box-shadow: 2px 2px 7px #ccc;
+    border-radius: 10px;
+    &__note {
+      color: rgb(240, 94, 196);
+      font-style: italic;
+    }
+  }
+  &--card {
+    &__img {
+      width: 150px;
+      border-radius: 10px;
+      & img {
+        height: 216px;
+        border-radius: 10px;
+      }
+    }
+  }
+  
+}
